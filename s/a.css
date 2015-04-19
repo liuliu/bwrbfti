@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+ 	border: 0;
+	font-size: 100%;
+	font: inherit;
+  	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+@font-face {
+	font-family: "elena";
+	src: url("/s/elena-regular.woff") format("woff");
+}
+
+body {
+	background-color: #fdfefe;
+	color: #030906;
+	line-height: 1;
+	font-family: "elena",'Open Sans','Helvetica Neue',Arial,"Hiragino Sans GB",sans-serif;
+	margin: 46px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+ 	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size: 60pt;
+	line-height: 130%;
+}
+
+h3 {
+	margin-top: 24px;
+	margin-bottom: 32px;
+	font-size: 11pt;
+	line-height: 120%;
+	color: #2e2e2f;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 20pt;
+	line-height: 130%;
+	color: #2e2e2f;
+}
+
+a, a:link, a:visited, a:hover {
+	color: #2e2e2f;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:2) {
+}
